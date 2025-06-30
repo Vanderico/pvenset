@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ENSET - Consultation des PV</title>
+
+  <!-- Feuille de style principale -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Icônes FontAwesome -->
+  <script src="https://kit.fontawesome.com/a2e0b6e6a0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <div class="container">
+    <h1>ENSET DE DOUALA</h1>
+    <h2>Consultation des Notes</h2>
+
+    <div class="input-wrapper">
+      <i class="fas fa-id-badge icon"></i>
+      <input type="text" id="matricule" placeholder="Matricule étudiant"/>
+    </div>
+
+    <button onclick="chercherPDF()">Vérifier mon PV</button>
+
+    <div id="resultat"></div>
+
+  
+    <div style="margin-top: 30px; font-size: 0.9em; color: #555;">
+       Une suggestion ? <a href="mailto:tchindavanderic@outlook.com">Écris-moi</a>
+      </div>
+
+  <!-- Script principal -->
+  <script src="js/script.js"></script>
+</body>
+</html>
